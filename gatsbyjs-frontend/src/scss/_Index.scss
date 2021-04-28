@@ -1,0 +1,55 @@
+.index {
+    //for cover entire screen of any size
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    //for cover entire screen of any size
+
+    display: flex;
+    flex-direction: column;
+
+    div {
+        flex: 1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .figure {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        
+            margin-top: -1.8rem;
+
+            &_img {
+                width: 42.25rem !important;
+                height: 37.75rem !important;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                margin-top: -6.375rem;
+
+                #btn1 {
+                    display: flex;
+                    align-items: center;
+                    font-family: myfont;
+                    font-size: 1.735rem;
+                }
+    
+                #btn2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}

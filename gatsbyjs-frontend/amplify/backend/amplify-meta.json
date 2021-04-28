@@ -1,0 +1,33 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-gatsbyjsfrontend-dev-180317-authRole",
+            "UnauthRoleArn": "arn:aws:iam::902276074505:role/amplify-gatsbyjsfrontend-dev-180317-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::902276074505:role/amplify-gatsbyjsfrontend-dev-180317-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-gatsbyjsfrontend-dev-180317-deployment",
+            "UnauthRoleName": "amplify-gatsbyjsfrontend-dev-180317-unauthRole",
+            "StackName": "amplify-gatsbyjsfrontend-dev-180317",
+            "StackId": "arn:aws:cloudformation:us-east-1:902276074505:stack/amplify-gatsbyjsfrontend-dev-180317/f4e2c9f0-a2a1-11eb-992e-0e0841b0ec97"
+        }
+    },
+    "api": {
+        "petsystemapp-api": {
+            "service": "AppSync",
+            "output": {
+                "authConfig": {
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY"
+                    },
+                    "additionalAuthenticationProviders": null
+                },
+                "GraphQLAPIIdOutput": "qtrmrtu7zbdwnou7eanlfw6bu4",
+                "GraphQLAPIEndpointOutput": "https://zh44kwqvkrgkrevdho6kitrtb4.appsync-api.us-east-1.amazonaws.com/graphql",
+                "name": "petsystemapp-api",
+                "region": "us-east-1",
+                "GraphQLAPIKeyOutput": "da2-utnkcguetnegbfzlfs277yzyey"
+            },
+            "lastPushTimeStamp": "2021-04-21T13:04:19.897Z"
+        }
+    }
+}

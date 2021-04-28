@@ -1,0 +1,112 @@
+.formikform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    form {
+        margin-top: 1.05rem;
+
+        //scroll code
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+        height: 670px;
+        //scroll code
+
+        padding: 2.35rem;
+        border-radius: 3px;
+        background-color: black;
+        box-shadow: 0 0 15px #ccc;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        width: 40rem;
+
+        table {
+            width: 100%;
+            margin-top: -1rem;
+
+            tbody {
+                width: 100%;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-left: -0.575rem;
+    
+                tr {
+                    width: 100%;
+                    margin-top: 1.35rem;
+                    th {
+                        width: 30%;
+                        margin-left: 2.475rem;
+                    }
+                    td {
+                        width: 58.85%;
+                        input {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        div {
+            label {
+                color: white;
+                font-family: 'Langar', cursive !important;
+                font-weight: bold;
+                font-size: 0.985rem;
+                letter-spacing: 0.1rem;
+            }
+            input {
+                margin-top: -0.5rem;
+                font-size: 0.9rem;
+            }
+            textarea {
+                margin-top: -0.535rem;
+                font-size: 0.9rem;
+            }
+        }
+    
+        .trBtn {
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100% !important;
+                border-radius: 0 !important;
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;    
+                }
+            }
+        }
+    }
+
+    #btnhomepage {
+        margin-top: 0.715rem;
+        margin-bottom: 0.9rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.err {
+    font-family: sans-serif;
+    font-size: 0.745rem;
+    letter-spacing: 0.01875rem;
+    margin-top: 0.305rem;
+    margin-left: 0.1rem;
+    letter-spacing: 0.08rem;
+    word-spacing: 0.04rem;
+    font-family: monospace;
+    color: white !important;
+}

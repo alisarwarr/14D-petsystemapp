@@ -1,0 +1,21 @@
+type Event {
+   result: String
+}
+
+type Query {}
+
+type Mutation {
+   createLabreport(
+      id: ID!
+      petAnimal: String!
+      petColor: String!
+      petName: String!
+      petAge: Int!
+      petGender: String!
+      petWeight: Int!
+      petCondition: String!
+      petOwnerName: String!
+      petOwnerEmail: String!
+      petOwnerPhone: String!
+   ): Event
+}

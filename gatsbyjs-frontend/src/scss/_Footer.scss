@@ -1,0 +1,17 @@
+.footer {
+    height: 4rem;
+
+    a {
+        color: inherit;
+        font-size: 0.9rem;
+        transition-duration: 0.25s;
+        &:hover {
+            color: #FA944B;
+        }
+    }
+
+    .footer-copyright {
+        margin-top: -0.625rem;
+        font-size: 0.825rem;
+    }
+}
